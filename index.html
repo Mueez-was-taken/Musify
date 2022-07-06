@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSIFY - My playlist</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/Assets/icon/icon.jpg">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <li class="logo"><img src="/Assets/logo/logo.png" alt="MUSIFY" /></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="">About</a></li>
+    </nav>
+
+
+    <!-- SONGS SECTION -->
+    <div id="middle">
+        <div class="songList">
+            <h3>My Playlist</h3>
+            <div class="songItem">
+                <img alt="SongCover">
+                <span class="timestamp">
+                    04:35
+                </span>
+                <div class="miniPlay">
+                    <img src="/Assets/gif/playing.gif" alt="playing">
+                    <i id="0" class="fa songItemPlay fa-play-circle"></i>
+                </div>
+            </div>
+            <div class="songItem">
+                <img alt="SongCover">
+                <span class="timestamp">
+                    04:35
+                </span>
+                <div class="miniPlay">
+                    <img src="/Assets/gif/playing.gif" alt="playing">
+                    <i id="1" class="fa songItemPlay fa-play-circle"></i>
+                </div>
+            </div>
+            <div class="songItem">
+                <img alt="SongCover">
+                <span class="timestamp">
+                    04:35
+                </span>
+                <div class="miniPlay">
+                    <img src="/Assets/gif/playing.gif" alt="playing">
+                    <i id="2" class="fa songItemPlay fa-play-circle"></i>
+                </div>
+            </div>
+            <div class="songItem">
+                <img alt="SongCover">
+                <span class="timestamp">
+                    04:35
+                </span>
+                <div class="miniPlay">
+                    <img src="/Assets/gif/playing.gif" alt="playing">
+                    <i id="3" class="fa songItemPlay fa-play-circle"></i>
+                </div>
+            </div>
+            <div class="songItem">
+                <img alt="SongCover">
+                <span class="timestamp">
+                    04:35
+                </span>
+                <div class="miniPlay">
+                    <img src="/Assets/gif/playing.gif" alt="playing">
+                    <i id="4" class="fa songItemPlay fa-play-circle"></i>
+                </div>
+            </div>
+            <div class="songItem">
+                <img alt="SongCover">
+                <span class="timestamp">
+                    04:35
+                </span>
+                <div class="miniPlay">
+                    <img src="/Assets/gif/playing.gif" alt="playing">
+                    <i id="5" class="fa songItemPlay fa-play-circle"></i>
+                </div>
+            </div>
+            <div class="songItem">
+                <img alt="SongCover">
+                <span class="timestamp">
+                    04:35
+                </span>
+                <div class="miniPlay">
+                    <img src="/Assets/gif/playing.gif" alt="playing">
+                    <i id="6" class="fa songItemPlay fa-play-circle"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BOTTOM CONTROLS -->
+    <div id="bottom">
+        <input type="range" name="range" id="seekbar" min="0" max="100" value="0">
+        <div id="icons">
+            <i class="icon" id="previous"> <img src="/Assets/buttons/backward.svg" alt="previous"> </i>
+            <i class="icon"> <img id="masterPlay" src="/Assets/buttons/play.svg" alt="play"> </i>
+            <i class="icon" id="next"> <img src="/Assets/buttons/forward.svg" alt="next"> </i>
+            <span id="bottomGIF">
+                <img id="gif" src="/Assets/gif/playing.gif" alt="playing">
+                <span id="masterSongName">Haule Haule - Sukhwinder Singh</span>
+            </span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
